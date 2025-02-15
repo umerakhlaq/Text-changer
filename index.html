@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+<h1>Text Styler</h1>
+<hr>
+        <button class="btn" onclick="Bold()">B</button>
+        <button class="btn" onclick="Italic()">I</button>
+        <button class="btn" onclick="Underline()">U</button>
+        <button class="btn" onclick="changeFontSize('increase')">Inc Font</button>
+        <button class="btn" onclick="changeFontSize('decrease')">Dec Font</button>
+        <button class="btn" onclick="changecolor()">Ex color</button>
+        <button class="btn" onclick="changefontfamily()">Ex family</button>
+        <div contenteditable="true" id="text-area">
+            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ea magni! Praesentium non alias
+                voluptates
+                officia velit neque quis beatae, debitis temporibus facere dolorum repellat accusantium ex ullam.
+                Libero, iusto!.
+            </p>
+        </div>
+
+        <button class="btn2" onclick="reloadPage()">Reload Page</button>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
